@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classical Instruments Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+    nav ul li {
+      display: inline;
+    }
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .instrument {
+      width: 30%;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+    }
+    form {
+      margin: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Classical Instruments Store</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Instruments</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="instrument">
+      <h2>Violin</h2>
+      <p>$500</p>
+      <p>Classical string instrument</p>
+    </div>
+    <div class="instrument">
+      <h2>Flute</h2>
+      <p>$300</p>
+      <p>Woodwind instrument</p>
+    </div>
+    <div class="instrument">
+      <h2>Piano</h2>
+      <p>$1500</p>
+      <p>Keyboard instrument</p>
+    </div>
+  </section>
+  <form>
+    <h2>Feedback Form</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br><br>
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <footer>
+    <p>&copy; 2022 Classical Instruments Store</p>
+  </footer>
+  <script>
+    // JavaScript code can be added here for any additional functionality
+  </script>
+</body>
+</html>
